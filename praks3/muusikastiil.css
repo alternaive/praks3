@@ -1,0 +1,140 @@
+.container {
+	background-color: black;
+	margin: 0 auto;
+	width:1140px;
+	color:white;
+}
+* {font-family:
+	bookman, sans-serif;
+	
+}
+
+body {
+	background-color:black;
+}
+
+.copyright {
+	text-align: center;
+	margin-top:20px;
+	background-color:gray;
+	padding-top:50px;
+	padding-bottom:50px;
+	width:100%
+}
+
+.copyright {
+	background-color:gray;
+}
+
+.logo {
+	background-color:black;
+	text-align:center;
+	font-family: Courier New, sans-serif;
+	color:white;
+	font-size:100px;
+	border-bottom:dotted;
+	padding-bottom:50px;
+}
+
+.plaadid {
+	display:flex;
+	flex-flow: row nowrap;
+	margin:100px;
+	padding:10px;
+	background: gray;
+}
+
+.plaadid div img{
+	width:220px;
+	float:center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.plaadid div p {
+text-align:justify;
+margin:10px;
+color:black;
+}
+
+.box-a, .box-b, .box-c {
+	width:200px;
+	margin:10px
+}
+
+
+.plaadid :hover {
+	background-color:white;
+	}
+	
+	
+.cd {
+	text-transform:uppercase;
+}
+.plaadid a:link {
+	text-decoration:none;
+}
+
+
+
+.album {
+	display:flex;
+	margin:20px;
+	padding:20px;
+	
+}
+
+.cover .hind .video {
+	flex-flow:row nowrap;
+	justify-content: space-evenly;
+}
+
+.cover {
+	
+	width:200px;
+	height:200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hind {
+	display:block;
+	width:250px;
+	text-align:right;
+	padding-right:200px;
+	border-collapse:collapse;
+
+
+}
+.hind td {
+	padding-top:10px;
+	width:200px;
+	border-top-style: solid;
+	
+}
+
+.video {
+	height:200px;
+	width:auto;
+	
+}
+
+.pealkiri {
+	text-transform:  uppercase;
+	font-weight:bold;
+	padding-left:100px;
+}
+
+.pealkiri a:link {
+	text-decoration:none;
+	color:white;
+}
+
+.release{
+	font-weight:bold;
+	text-align:left;
+}
